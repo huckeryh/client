@@ -147,7 +147,7 @@ function AddOrders4() {
                         <p>ETA:***ENTER ETA HERE***</p>
                         <p>Total: ${calculateOrderTotal()}</p>
     
-                        
+                        <button><Link to={'/'}>Yes</Link></button>
                         <button onClick={handleConfirmationNo}>No</button>
                     </div>
                 </div>
